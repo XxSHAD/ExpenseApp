@@ -1,0 +1,6 @@
+expenses in ExpenseSummary is an array of objects
+reduce() helps to combine values in arrays to a single value.
+
+the data prop you learned before in the course that flatlist has this data prop which wants an array, which will then be handled internally by flatlist to output these items off this array.
+
+You have this item property in this object that's passed automatically buy flatlist. And this will then be one of the items in your array. So all these items are output. All the array items you pass to data are output here through render expense item and therefore inside of render expense item you get access to a single item of your array here. One of at a time through this item property on this incoming item data, which is sent in by flatlist.
